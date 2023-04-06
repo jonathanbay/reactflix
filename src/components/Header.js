@@ -14,6 +14,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+             <h1>Reacflix</h1>
         </div>
     );
 };
