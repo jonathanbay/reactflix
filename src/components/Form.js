@@ -7,7 +7,7 @@ const Form = () => {
     const [moviesData, setMoviesData] = useState([]);
 
     useEffect(() => {
-        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=e060479fc192cc1c6560b723a60fae13&query=water&language=fr`)
+        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=e060479fc192cc1c6560b723a60fae13&query=sun&language=fr`)
         .then((res) => setMoviesData(res.data.results));
     }, [])
 
